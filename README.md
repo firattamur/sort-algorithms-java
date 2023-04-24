@@ -29,10 +29,10 @@ Each algorithm comes with a dedicated folder containing:
 
 ## 👩‍💻 Contributing
 
-We welcome and appreciate contributions from the community! If you'd like to contribute, please follow the [contributing guidelines](CONTRIBUTING.md) and make a pull request. Let's make this repository a go-to resource for learning sorting algorithms in Java! 🌟🤲
+We welcome and appreciate contributions from the community! 
 
 ## 📜 License
 
-This repository is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as you wish, but please give credit where credit is due.
+This repository is licensed under the [MIT License](LICENSE). 
 
 Happy Sorting! 🎊🧙‍♂️
