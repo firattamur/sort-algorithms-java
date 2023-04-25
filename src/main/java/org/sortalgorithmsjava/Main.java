@@ -4,24 +4,28 @@ import org.sortalgorithmsjava.sortingalgorithms.SortingAlgorithm;
 import org.sortalgorithmsjava.sortingalgorithms.bubblesort.BubbleSort;
 import org.sortalgorithmsjava.sortingalgorithms.countingsort.CountingSort;
 import org.sortalgorithmsjava.sortingalgorithms.insertionsort.InsertionSort;
+import org.sortalgorithmsjava.sortingalgorithms.mergesort.MergeSort;
 import org.sortalgorithmsjava.sortingalgorithms.selectionsort.SelectionSort;
+import org.sortalgorithmsjava.sortingalgorithms.shellsort.ShellSort;
 
 import java.util.Random;
 
 public class Main {
 
-    private static final int ARRAY_SIZE = 50000;
+    private static final int ARRAY_SIZE = 10000;
     private static final int NUMBER_OF_RUNS = 10;
-    private static final int MAX_VALUE = 10000;
+    private static final int MAX_VALUE = 100000;
     private static final Random random = new Random();
 
     public static void main(String[] args) {
 
-        SortingAlgorithm[] algorithms = new SortingAlgorithm[] {
+        SortingAlgorithm[] algorithms = new SortingAlgorithm[]{
+                new MergeSort(),
+                new ShellSort(),
                 new BubbleSort(),
+                new CountingSort(),
                 new SelectionSort(),
                 new InsertionSort(),
-                new CountingSort()
         };
 
         int[][] data = generateData();

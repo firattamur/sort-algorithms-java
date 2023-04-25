@@ -1,25 +1,27 @@
 # Sorting Algorithms Java 🧪🌟
 
-Welcome to the Sorting Algorithms Repository, where we dive into the world of sorting algorithms using Java! 🚀🎉 
+Welcome to the Sorting Algorithms Repository, where we dive into the world of sorting algorithms using Java! 🚀🎉
 
-## 🚀 Getting Started 
+## 🚀 Getting Started
 
-Sorting algorithms are fundamental in computer science and programming. They are used to organize and manage data, making it easier to search, analyze, and manipulate. This repository contains the implementation of various sorting algorithms in Java, along with explanations and examples. 
+Sorting algorithms are fundamental in computer science and programming. They are used to organize and manage data,
+making it easier to search, analyze, and manipulate. This repository contains the implementation of various sorting
+algorithms in Java, along with explanations and examples.
 
 ## 🧩 Algorithms
 
 Here's a list of the sorting algorithms you'll find in this repository:
 
-- [X] Bubble Sort 
-- [X] Selection Sort 
-- [X] Insertion Sort 
-- [ ] Merge Sort 
-- [ ] Quick Sort 
-- [ ] Heap Sort 
-- [ ] Radix Sort 
-- [ ] Shell Sort 
-- [ ] Tim Sort 
-- [X] Counting Sort 
+- [X] Bubble Sort
+- [X] Selection Sort
+- [X] Insertion Sort
+- [X] Merge Sort
+- [ ] Quick Sort
+- [ ] Heap Sort
+- [ ] Radix Sort
+- [X] Shell Sort
+- [ ] Tim Sort
+- [X] Counting Sort
 
 Each algorithm comes with a dedicated folder containing:
 
@@ -29,10 +31,10 @@ Each algorithm comes with a dedicated folder containing:
 
 ## 👩‍💻 Contributing
 
-We welcome and appreciate contributions from the community! 
+We welcome and appreciate contributions from the community!
 
 ## 📜 License
 
-This repository is licensed under the [MIT License](LICENSE). 
+This repository is licensed under the [MIT License](LICENSE).
 
 Happy Sorting! 🎊🧙‍♂️

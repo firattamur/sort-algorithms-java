@@ -2,6 +2,25 @@ package org.sortalgorithmsjava.sortingalgorithms.countingsort;
 
 import org.sortalgorithmsjava.sortingalgorithms.SortingAlgorithm;
 
+/*
+
+    Counting Sort:
+
+        * Counting sort sorts the array by counting the number of occurrences of each element in the array.
+        * It then reconstructs the array by iterating over the count array and inserting each element into its correct position.
+        * Counting sort is only applicable to arrays with integer values. It is not a comparison sort.
+        * It has O(n + k) time complexity, where n is the number of elements in the array and k is the range of values in the array.
+        * It is efficient for large arrays with a small range of values.
+        * It is not a stable sort.
+        * It is not an in-place sort.
+        * To work with negative values, we can offset the array by the minimum value in the array.
+
+    Time Complexity : O(n + k)
+    Space Complexity: O(n + k)
+
+
+*/
+
 public class CountingSort implements SortingAlgorithm {
 
     @Override
