@@ -3,8 +3,10 @@ package org.sortalgorithmsjava;
 import org.sortalgorithmsjava.sortingalgorithms.SortingAlgorithm;
 import org.sortalgorithmsjava.sortingalgorithms.bubblesort.BubbleSort;
 import org.sortalgorithmsjava.sortingalgorithms.countingsort.CountingSort;
+import org.sortalgorithmsjava.sortingalgorithms.heapsort.HeapSort;
 import org.sortalgorithmsjava.sortingalgorithms.insertionsort.InsertionSort;
 import org.sortalgorithmsjava.sortingalgorithms.mergesort.MergeSort;
+import org.sortalgorithmsjava.sortingalgorithms.quicksort.QuickSort;
 import org.sortalgorithmsjava.sortingalgorithms.selectionsort.SelectionSort;
 import org.sortalgorithmsjava.sortingalgorithms.shellsort.ShellSort;
 
@@ -20,6 +22,8 @@ public class Main {
     public static void main(String[] args) {
 
         SortingAlgorithm[] algorithms = new SortingAlgorithm[]{
+                new QuickSort(),
+                new HeapSort(),
                 new MergeSort(),
                 new ShellSort(),
                 new BubbleSort(),

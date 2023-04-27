@@ -16,8 +16,8 @@ Here's a list of the sorting algorithms you'll find in this repository:
 - [X] Selection Sort
 - [X] Insertion Sort
 - [X] Merge Sort
-- [ ] Quick Sort
-- [ ] Heap Sort
+- [X] Quick Sort
+- [X] Heap Sort
 - [ ] Radix Sort
 - [X] Shell Sort
 - [ ] Tim Sort
