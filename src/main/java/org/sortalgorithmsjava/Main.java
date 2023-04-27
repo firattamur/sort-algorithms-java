@@ -9,6 +9,7 @@ import org.sortalgorithmsjava.sortingalgorithms.mergesort.MergeSort;
 import org.sortalgorithmsjava.sortingalgorithms.quicksort.QuickSort;
 import org.sortalgorithmsjava.sortingalgorithms.selectionsort.SelectionSort;
 import org.sortalgorithmsjava.sortingalgorithms.shellsort.ShellSort;
+import org.sortalgorithmsjava.sortingalgorithms.timsort.TimSort;
 
 import java.util.Random;
 
@@ -22,6 +23,7 @@ public class Main {
     public static void main(String[] args) {
 
         SortingAlgorithm[] algorithms = new SortingAlgorithm[]{
+                new TimSort(),
                 new QuickSort(),
                 new HeapSort(),
                 new MergeSort(),

@@ -2,6 +2,19 @@ package org.sortalgorithmsjava.sortingalgorithms.heapsort;
 
 import org.sortalgorithmsjava.sortingalgorithms.SortingAlgorithm;
 
+/*
+
+    Heap Sort:
+
+        * Heap sort sorts the array in-place by first building a max heap and then repeatedly swapping the root of the heap with the last element of the heap and then heapifying the heap.
+        * It has O(n log n) time complexity, where n is the number of elements in the array.
+        * It is not a stable sort.
+        * It is an in-place sort.
+
+    Time Complexity : O(n log n)
+    Space Complexity: O(1)
+
+*/
 public class HeapSort implements SortingAlgorithm {
 
     @Override
